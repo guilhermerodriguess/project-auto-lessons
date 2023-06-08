@@ -15,7 +15,7 @@ function processDiaAula(diaIndex) {
   }
 
   const diaAula = diasAulas[diaIndex];
-  console.log('Clicando no dia da aula', diaIndex + 1);
+  console.log('Clicando na aula do dia', diaIndex + 1);
 
   // Obter os conteúdos do dia atual
   const conteudosDia = diaAula.nextElementSibling.getElementsByClassName('c-hKhFYS');
